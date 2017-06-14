@@ -1,1 +1,43 @@
+@font-face {
+    font-family: "AR Bonnie";
+    src: url("./fonts/ARBONNIE.ttf");
+}
 
+img {
+  height: 10rem;
+}
+
+h3 {
+  font-family: AR Bonnie;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding: 0 1rem;
+}
+
+
+/*Work section*/
+
+.work-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+  flex-grow: 1;
+  max-width: 10rem;
+  margin: 2rem;
+}
