@@ -1,3 +1,3 @@
 # kaecreatesv2
 
-This will be my portfolio v2.0 :)
+This is the personalized version of a portfolio site for the Skillcrush class I'm taking
