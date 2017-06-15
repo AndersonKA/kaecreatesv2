@@ -12,13 +12,16 @@ h3 {
   font-family: AR Bonnie;
   font-size: 1.5rem;
   color: #1CB69F;
+  margin-bottom: 5rem;
 }
 
 nav {
-  margin: 0 -1rem;
+  margin: -1rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #59C9F3;
 }
 
 nav ul {
@@ -31,17 +34,42 @@ nav ul li {
   align-items: center;
 }
 
+
 .nav-link {
-  color: #1BABD2;
+  color: #ffffff;
 }
 
 .area {
-  margin: 5rem 0;
+  margin: 10rem 0;
 }
 
 .icon {
   height: 8rem;
 }
+
+.container {
+  margin: 2rem;
+}
+
+/*About Section*/
+
+.about-section {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Skills Section*/
+
+.skills-section {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 /*Work section*/
 
 .work-group {
@@ -66,7 +94,16 @@ nav ul li {
   margin-top: 1rem;
 }
 
+/*Contact Section*/
+
+.contact-section {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .contactthing {
-  color: #166192;
+  color: #07729B;
   text-decoration: none;
 }
