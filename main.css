@@ -4,19 +4,11 @@
 }
 
 img {
-  /*height: 10rem;*/
   border-radius: 50%;
 }
 
-h3 {
-  font-family: AR Bonnie;
-  font-size: 1.5rem;
-  color: #1CB69F;
-  margin-bottom: 3rem;
-}
-
 nav {
-  margin: -1rem -1rem 5rem -1rem;
+  margin: -1rem -1rem 0 -1rem;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -38,18 +30,21 @@ nav ul li {
   text-decoration: none;
 }
 
-.area {
-  margin-bottom: 5rem;
-}
-
 .icon {
   height: 8rem;
 }
 
-.container {
-  margin: 2rem;
+.heading {
+  font-family: AR Bonnie;
+  font-size: 1.5rem;
+  color: #1CB69F;
+  margin: 0 0 1.5rem 2rem;
 }
 
+.area {
+  padding: 3rem 1rem;
+  margin: 0 -1rem;
+}
 
 /*About Section*/
 
@@ -60,7 +55,6 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background: #94DFF1;
 }
 
 .about-part {
@@ -69,7 +63,6 @@ nav ul li {
   flex-basis: calc(100% / 3);
   flex-grow: 1;
   max-width: 20rem;
-  margin: 2rem;
 }
 
 .image-rec {
@@ -83,6 +76,10 @@ nav ul li {
 
 /*Skills Section*/
 
+.skills {
+  background: #B2C2C7;
+}
+
 .skills-section {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +87,6 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background: #94DFF1;
 }
 
 .skills-part {
@@ -99,11 +95,14 @@ nav ul li {
   flex-basis: calc(100% / 3);
   flex-grow: 1;
   max-width: 20rem;
-  margin: 2rem;
 }
 
 
 /*Work section*/
+
+.work {
+  background: #B1F9E2;
+}
 
 .work-group {
   display: flex;
@@ -112,7 +111,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #94DFF1;
 }
 
 .work-item {
@@ -131,6 +129,10 @@ nav ul li {
 
 /*Contact Section*/
 
+.contact {
+  background: #95F2F8;
+}
+
 .contact-section {
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +140,6 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background: #94DFF1;
 }
 
 .contact-part {
@@ -147,7 +148,6 @@ nav ul li {
   flex-basis: calc(100% / 3);
   flex-grow: 1;
   max-width: 10rem;
-  margin: 2rem;
 }
 
 .contactthing {
